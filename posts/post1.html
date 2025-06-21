@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>First Time using MacOS</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<style>
+		body {
+			background-color: dimgrey;
+			color: navajowhite;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin: 0;
+			text-align: center;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.horizontal-list {
+			color: pink;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			gap: 1rem;
+			text-align: center;
+			justify-content: center;
+		}
+	</style>
+	<script data-goatcounter="https://michaeldoesablog.goatcounter.com/count"
+	        async src="//gc.zgo.at/count.js"></script>
+ </head>
+ <body>
+ 	<div class="container">
+    <h1>First Time using MacOS</h1>
+    <ul class="horizontal-list">
+		<li><a href="https://www.youtube.com/@michaeldoesavlog" target="_blank" rel="noopener noreferrer">[YouTube]</a></li>
+		<li><a href="/index.html">[Home]</a></li>
+		<li><a href="/blog.html">[Blog]</a></li>
+	</ul>
+		<h3>MacOS? I thought you were using Linux?</h3>
+    <p>In a <a href="https://www.youtube.com/watch?v=tAW37Ywjs40" target="_blank" rel="noopener noreferrer">video</a> I uploaded <span title="17th of June 2025" style="text-decoration: underline;">recently</span> I talked about my switch from Windows 11 to Fedora 42 GNOME. I really enjoy using linux but I can't deny I've been curious about MacOS for years. This week I was presented with an opportunity to finally buy a Mac Mini M4 with one heck of a discount and decided to go through with it.<br><br>
+
+    <h3>Bol</h3>
+    A couple of days ago I was cleaning out one of my drawers when I stumbled upon 4 giftcards that I completely forgot about. 3 of those giftcards were for an online retailer here in Holland called <a href="https://www.bol.com" target="_blank" rel="noopener noreferrer">Bol</a>. Bol is like the Dutch version of <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">Amazon</a>, although we do have Amazon as well.<br>
+    Since these giftcards had been laying in my drawer for years now, I figured that I should redeem them as soon as possible before they'd expire. It turns out these giftcards would give me an €85 discount on anything I want at Bol. At first I'd just pull the trigger on pre-ordering Borderlands 4 for the PS5, but would eventually decide against it, taking into consideration that I wasn't a huge fan of Borderland 3. I'd just wait for reviews to come out, watch some of the gameplay on YouTube and then decide on whether I'd buy the game or not.<br><br>
+
+    Then it hit me: why not finally buy a Mac Mini M4?
+
+    <br><br>
+    <img src="https://media1.tenor.com/m/kkyyEBp3ZiUAAAAC/money-fire.gif" loading="lazy" alt="Burning money" style="width: 35%;">
+    <br><br>
+
+    <h3>Mac Mini M4</h3>
+    For these past couple of months I've been closely following the developments around the Mac Mini M4. I always felt like Apple products were insanely overpriced and simply not worth it, but after watching a ton of reviews and use-cases of the Mac Mini M4 I genuinely started to feel like this little pc might be something I could vibe with.<br>
+    Nontheless, I just couldn't justify buying the Mac Mini M4 for the full price. My Fedora system was doing it's thing perfectly fine, although I must confess that using a power-hungry laptop as my daily driver for years now wasn't the most optimal experience. After re-discovering my giftcards I decided to pull the trigger and buy that darned mini pc from Apple that I've had my eyes on for so long now.
+    <br><br>
+    <span title="20th of June 2025" style="text-decoration: underline;">Yesterday</span> was finally the day I could test out MacOS for the first time. Since I was completely new to this operating system I decided to first watch an insane amount of YouTube videos where experienced MacOS users explain how to properly set up and use your new device. This helped a ton and lead me to discover <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a>, an very useful terminal utility that I am using quite bit!
+    <br><br>
+
+    <h3>Installing Applications on MacOS</h3>
+    It turns out that installing applications on MacOS is very simplistic and very similar to how one would do so on Windows 11. You go to your browsers, type in the specific application you'd like to download, in this case let's use <a href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer">Steam</a> as an example and click on the big download button. A file will be downloaded to your 'downloads' folder and after opening said file you drag and drop it to the 'Applications' folder. Simple, right?<br>
+    It turns out that Homebrew makes things even more simple! By using the command 'brew search steam' you get a nice list of any applications, both <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank" rel="noopener noreferrer">CLI</a> and <a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank" rel="noopener noreferrer">GUI</a>, that are available for MacOS. If you're not 100% sure of which application is the right one you can run the command 'brew info steam' which, indeed, shows that this is the Steam we're looking for and so we can now run 'brew install --cask steam' and BOOM, it's installing right in front of your eyes in the terminal! You even get a progress bar showing you how far the installation is, something the drag and drop function doesn't do. Oh by the way, you add '--cask' whenever the application you're trying to download is a GUI application. For CLI apps this is not necessary. For example, if you'd like to install <a href="https://github.com/fastfetch-cli/fastfetch" target="_blank" rel="noopener noreferrer">fastfetch</a>, there's no reason to add '--cask', you can just type 'brew install fastfetch'.
+    <br><br>
+    <img src="https://media1.tenor.com/m/iMUKJ0TEeOkAAAAC/anime-keyboard.gif" loading="lazy" alt="Konata Izumi from the anime 'Lucky Star' typing on a keyboard" style="width: 40%;">
+    <br><br>
+
+    <h3>Customization is key</h3>
+    Although I can understand why someone would say that a Mac "just works out of the box" I must confess that for me personally, it doesn't feel that way at all. There were a lot of things I needed to customize before this OS felt like something I wanted to use. Initially I chocked this up to me not being used to MacOS, but <span title="21st of June 2025" style="text-decoration: underline;">today</span> I realized this is not the reason behind it. I don't think this article will benefit from me listing everything I changed, but I think mentioning this one thing will show you the reason as to why I feel like MacOS doesn't just "work out of the box". On Windows and Linux, <a href="https://support.microsoft.com/en-us/windows/snap-your-windows-885a9b1e-a983-a3b1-16cd-c531795e6241" target="_blank" rel="noopener noreferrer">window snapping</a> is incredibly simple to achieve. But on MacOS, it really isn't. I therefore had to download a separate application called <a href="https://rectangleapp.com/" target="_blank" rel="noopener noreferrer">Rectangle</a> to make window snapping easier. It were little things like these, fighting with the Dock, showing hidden folders and not having default permissions to certain folders and actions were all small struggles that I had to overcome. Don't get me wrong, it's nothing major, but if you want to use your computer for more than just browsing the web it doesn't "just work out of the box".
+    <br><br>
+
+    <h3>Gaming on a Mac</h3>
+    When I bought this Mac Mini M4 I knew that playing PC games on it was not going to be a thing. I knew my favorite game <a href="https://store.steampowered.com/app/203770/Crusader_Kings_II/" target="_blank" rel="noopener noreferrer">Crusader Kings 2</a> was playable on it via Steam, but that was about it. It turns out that some other titles in my Steam library were indeed compatible, but nothing major (as expected). What did, however, surprise me quite a bit was retro gaming emulation on my Mac! Older consoles run like a dream on this thing which is wonderful for someone like me, as I prefer older consoles over modern gaming!<br>
+    My favorite console, the <a href="https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System" target="_blank" rel="noopener noreferrer">Super Nintendo</a>, runs on basically anything nowadays, but even relatively modern consoles worked like a charm! If you're mainly interested in retro gaming and don't care all that much about modern games then the Mac Mini M4 is a great pick. For most of the consoles I'm currently using <a href="https://openemu.org/" target="_blank" rel="noopener noreferrer">OpenEmu</a>, although I'm thinking about switching to <a href="https://www.retroarch.com/" target="_blank" rel="noopener noreferrer">RetroArch</a> as I like to earn <a href="https://retroachievements.org/" target="_blank" rel="noopener noreferrer">RetroAchievements</a> (even though I'm not a completionist whatsoever). Which reminds me: feel free to <a href="https://retroachievements.org/user/Becx" target="_blank" rel="noopener noreferrer">follow me</a> on RetroAchievements!
+    <br><br>
+    <img src="https://media1.tenor.com/m/aUuIN4CKrbEAAAAC/kagura-azumanga-daioh.gif" loading="lazy" alt="Kagura from the anime 'Azumanga Daioh' playing a video game" style="width: 42%;">
+    <br><br>
+
+    <h3>Conclusion</h3>
+    So do I regret buying the Mac Mini M4? Absolutely not! I absolutely love this thing and I see myself using it for many years to come! Whether it's writing these posts, editing videos, playing retro games or just watching anime, all of it can be easily done via this thing. When it comes to gaming I still have my <a href="https://en.wikipedia.org/wiki/PlayStation_5" target="_blank" rel="noopener noreferrer">PlayStation 5</a> & my gaming laptop, so no worries there either.<br><br>
+
+    If you like my blog and want to read more in the future, then click here to go to the <a href="/blog.html">[Blog]</a> section of my website. Once there please <span title="Ctrl + D" style="text-decoration: underline;">bookmark it</span> and come back every weekend for a new post of mine. If you'd like my posts in video-format instead then please go to my <a href="https://www.youtube.com/@michaeldoesavlog" target="_blank" rel="noopener noreferrer">YouTube channel</a> and subscribe there. Make sure to click on the little bell icon when subscribing though, because you won't get notifications otherwise.
+
+    Have a great rest of your day!
+
+    	
+    </p>
+ </body>
